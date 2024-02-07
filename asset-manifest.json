@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Dar/static/css/main.32b21f96.css",
+    "main.js": "/Dar/static/js/main.356460e8.js",
+    "static/js/787.23f6dfe4.chunk.js": "/Dar/static/js/787.23f6dfe4.chunk.js",
+    "static/media/book1.PNG": "/Dar/static/media/book1.99d97ba8c5efcbab060d.PNG",
+    "static/media/book2.PNG": "/Dar/static/media/book2.c29bf7c91158a1154a02.PNG",
+    "static/media/book4.PNG": "/Dar/static/media/book4.d1d5e2f10ae881d95e29.PNG",
+    "static/media/book3.PNG": "/Dar/static/media/book3.11a5854a1b500532a02d.PNG",
+    "static/media/logo2.png": "/Dar/static/media/logo2.6d0f6adc677cbfc419ac.png",
+    "static/media/logo-footer.png": "/Dar/static/media/logo-footer.6b6f6c8ecd480656a551.png",
+    "static/media/3.jpg": "/Dar/static/media/3.3564aa47a4098a2c884f.jpg",
+    "static/media/revicons.eot": "/Dar/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Dar/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Dar/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Dar/index.html",
+    "main.32b21f96.css.map": "/Dar/static/css/main.32b21f96.css.map",
+    "main.356460e8.js.map": "/Dar/static/js/main.356460e8.js.map",
+    "787.23f6dfe4.chunk.js.map": "/Dar/static/js/787.23f6dfe4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32b21f96.css",
+    "static/js/main.356460e8.js"
+  ]
+}
