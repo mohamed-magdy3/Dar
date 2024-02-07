@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none !important;
+  text-decoration: none !important;
+  font-family: 'Tajawal', sans-serif;
+}
+html{
+  direction: rtl;
+}
+
+:root{
+  --gold:rgba(247, 146, 51, 0.975);
+}
+
+
+.App {
+  background: white;
+  height: 100vh;
+  width: 100%;
+  /* background: linear-gradient(to bottom left, rgba(247, 146, 51, 0.975), rgba(192, 115, 1, 0.925), rgba(255, 169, 56, 0.986)) ; */
+
+}
+
+.nav-logo {
+  position: relative;
+  width: 100%;
+  margin-top: -2rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+
+}
+
+.bg{
+  position: absolute;
+  width: 100%;
+  filter: opacity(0.4);
+  z-index: 1;
+  background-size:contain;
+}
+
+
+.logo-header{
+  position: relative;
+  z-index: 2;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(255, 126, 34); */
+  color: #660198;
+  /* background: linear-gradient(to bottom left, rgba(255, 123, 0, 0.975), rgba(192, 115, 1, 0.925), rgba(247, 140, 0, 0.986)) ; */
+  margin-top: 0rem;
+  background: linear-gradient(to bottom , rgba(168, 99, 35, 0.975), rgba(192, 115, 1, 0.925), rgba(255, 169, 56, 0.986));
+  padding: 1rem;
+}
+.bg-light{
+  background-color: transparent !important;
+  --bs-bg-opacity:0 !important
+}
+.nav-link {
+  color: white !important;
+}
+.navbar-toggler {
+  color: white !important;
+  border: 1px solid white !important;
+}
+.navbar-toggler::after{
+  content: 'القائمة';
+}
+.navbar-toggler:focus {
+  color: white !important;
+  border: 1px solid !important;
+  box-shadow: none !important;
+}
+
+.img-header-log{
+  width: 30%;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  /* padding: 1rem; */
+  border-radius: 70px;
+  margin: auto;
+  text-align: center;
+  /* background-color: white; */
+}
+.nav-ul li {
+  font-size: 1.2rem;
+  margin: 0rem 1.5rem;
+  display: list-item;
+  color: white;
+  padding-left: 2rem;
+}
+.nav-ul li:nth-child(1),
+.nav-ul li:nth-child(2),
+.nav-ul li:nth-child(3) {
+  border-left: 2px solid rgb(255, 255, 255);
+}
+
+.NavLink {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+
+
+
+/* Carousel */
+.carousel{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.carousel-container{
+  width: 50%;
+ 
+  border-radius: 20px;
+}
+.react-multi-carousel-dot--active button{
+  background-color: rgb(255, 166, 0) !important;
+}
+
+.react-multi-carousel-dot button{
+  /* border-color: rgb(255, 166, 0) !important; */
+  outline: 2pt solid rgb(255, 166, 0) !important;
+  border: 2px solid white !important;
+  background-color: transparent;
+}
+
+.react-multiple-carousel__arrow {
+  background-color: rgba(255, 53, 53, 0.8) !important;
+}
+.cars-img{
+width: 97%;
+height: 340px;
+}
+.cars-img img{
+  width: 100%;
+  
+  
+}
+.title-head{
+color: var(--gold);
+
+}
+.under-title{
+  font-size: 1.5rem;
+ 
+}
+.manhaj{
+  margin-top: 2rem;
+  border-radius: 25px;
+  color: white;
+  background-color: #cf0000;
+  padding: 0.8rem;
+  width: fit-content;
+}
+.manhaj a{
+  color: white;
+}
+
+/* Form */
+
+
+
+@media (max-width: 480px){
+  .img-header-log{
+    width: 90%;
+  }
+  .nav-ul li {
+    font-size: 1rem;
+    margin: 0rem 1.5rem;
+    display: list-item;
+    color: white;
+    padding-left: 2rem;
+  }
+  .nav-ul li:nth-child(1),
+.nav-ul li:nth-child(2),
+.nav-ul li:nth-child(3) {
+  border: none;
+}
+.cars-img{
+  width: 100%;
+}
+.cars-img img{
+  width: 100%;
+}
+}
